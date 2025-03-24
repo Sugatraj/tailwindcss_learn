@@ -1,3 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Or use the @tailwind directive syntax: */
+/* 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*/
+
+body {
+  background-color: black;
+  color: white;
+}
