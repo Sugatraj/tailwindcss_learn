@@ -23,6 +23,25 @@ function App() {
       ],
     },
     {
+      name: 'Test',
+      posts: [
+        {
+          id:1,
+          title: 'test',
+          date:  '4h age',
+          commentCount: 6,
+          shareCount: 2,
+        },
+        {
+          id:1,
+          title: 'test',
+          date:  '4h age',
+          commentCount: 6,
+          shareCount: 2,
+        }
+      ]
+    },
+    {
       name: 'Popular',
       posts: [
         {
